@@ -1,0 +1,94 @@
+[11/29 00:26:31      0s] 
+[11/29 00:26:31      0s] Cadence Innovus(TM) Implementation System.
+[11/29 00:26:31      0s] Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+[11/29 00:26:31      0s] 
+[11/29 00:26:31      0s] Version:	v19.11-s128_1, built Tue Aug 20 20:54:34 PDT 2019
+[11/29 00:26:31      0s] Options:	
+[11/29 00:26:31      0s] Date:		Tue Nov 29 00:26:31 2022
+[11/29 00:26:31      0s] Host:		cn97.it.auth.gr (x86_64 w/Linux 3.10.0-1160.76.1.el7.x86_64) (1core*12cpus*Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz 28160KB)
+[11/29 00:26:31      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[11/29 00:26:31      0s] 
+[11/29 00:26:31      0s] License:
+[11/29 00:26:31      0s] 		invs	Innovus Implementation System	19.1	checkout succeeded
+[11/29 00:26:31      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[11/29 00:27:02     12s] @(#)CDS: Innovus v19.11-s128_1 (64bit) 08/20/2019 20:54 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/29 00:27:02     12s] @(#)CDS: NanoRoute 19.11-s128_1 NR190815-2055/19_11-UB (database version 18.20, 469.7.1) {superthreading v1.51}
+[11/29 00:27:02     12s] @(#)CDS: AAE 19.11-s034 (64bit) 08/20/2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/29 00:27:02     12s] @(#)CDS: CTE 19.11-s040_1 () Aug  1 2019 08:53:57 ( )
+[11/29 00:27:02     12s] @(#)CDS: SYNTECH 19.11-e010_1 () Jul 15 2019 20:31:02 ( )
+[11/29 00:27:02     12s] @(#)CDS: CPE v19.11-s006
+[11/29 00:27:02     12s] @(#)CDS: IQuantus/TQuantus 19.1.2-s245 (64bit) Thu Aug 1 10:22:01 PDT 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/29 00:27:02     12s] @(#)CDS: OA 22.60-p020 Mon May 13 19:21:36 2019
+[11/29 00:27:02     12s] @(#)CDS: SGN 18.10-d003 (18-Jul-2018) (64 bit executable, Qt5.9.1)
+[11/29 00:27:02     12s] @(#)CDS: RCDB 11.14.18
+[11/29 00:27:02     12s] @(#)CDS: STYLUS 19.10-s008_1 (06/27/2019 02:55 PDT)
+[11/29 00:27:03     12s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_101286_cn97.it.auth.gr_dimitriosa_LWtlxK.
+
+[11/29 00:27:03     12s] Change the soft stacksize limit to 0.2%RAM (96 mbytes). Set global soft_stack_size_limit to change the value.
+[11/29 00:27:05     12s] 
+[11/29 00:27:05     12s] **INFO:  MMMC transition support version v31-84 
+[11/29 00:27:05     12s] 
+[11/29 00:27:05     12s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[11/29 00:27:05     12s] <CMD> suppressMessage ENCEXT-2799
+[11/29 00:27:05     12s] <CMD> getVersion
+[11/29 00:27:05     12s] <CMD> getVersion
+[11/29 00:27:08     12s] <CMD> getVersion
+[11/29 00:27:22     12s] [INFO] Loading PVS 19.10 fill procedures
+[11/29 00:27:22     13s] <CMD> win
+[11/29 00:28:07     16s] <CMD> encMessage warning 0
+[11/29 00:28:07     16s] Suppress "**WARN ..." messages.
+[11/29 00:28:07     16s] <CMD> encMessage debug 0
+[11/29 00:28:07     16s] <CMD> encMessage info 0
+[11/29 00:28:08     16s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[11/29 00:28:08     16s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[11/29 00:28:08     16s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[11/29 00:28:08     16s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[11/29 00:28:08     16s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[11/29 00:28:08     16s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[11/29 00:28:08     16s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[11/29 00:28:08     16s] Loading view definition file from /mnt/scratch_b/users/d/dimitriosa/Desktop/asic/prj/ino/designs/picorv32.dat/viewDefinition.tcl
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /mnt/eda_a/eda/designkits/GPDK/gsclib045/lan/flow/t1u1/reference_libs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/fast_vdd1v0_basicCells.lib)
+[11/29 00:28:08     17s] *** End library_loading (cpu=0.01min, real=0.00min, mem=14.5M, fe_cpu=0.28min, fe_real=1.62min, fe_mem=749.5M) ***
+[11/29 00:28:09     17s] *** Netlist is unique.
+[11/29 00:28:09     17s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/29 00:28:09     17s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/29 00:28:09     17s] Loading preference file /mnt/scratch_b/users/d/dimitriosa/Desktop/asic/prj/ino/designs/picorv32.dat/gui.pref.tcl ...
+[11/29 00:28:10     17s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File /mnt/scratch_b/users/d/dimitriosa/Desktop/asic/prj/ino/designs/picorv32.dat/libs/mmmc/genus.default_emulate_constraint_mode.sdc, Line 9).
+[11/29 00:28:10     17s] 
+[11/29 00:28:10     17s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File /mnt/scratch_b/users/d/dimitriosa/Desktop/asic/prj/ino/designs/picorv32.dat/libs/mmmc/genus.default_emulate_constraint_mode.sdc, Line 10).
+[11/29 00:28:10     17s] 
+[11/29 00:28:16     18s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/29 00:28:16     18s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/29 00:28:22     18s] Loading place ...
+[11/29 00:28:40     23s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.11-s128_1. They will be removed in the next release. 
+[11/29 00:28:40     23s] timing_enable_default_delay_arc
+[11/29 00:30:22     27s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Nov 29 00:30:22 2022
+  Total CPU time:     0:00:29
+  Total real time:    0:03:53
+  Peak memory (main): 846.22MB
+
+[11/29 00:30:22     27s] 
+[11/29 00:30:22     27s] *** Memory Usage v#1 (Current mem = 1095.391M, initial mem = 256.805M) ***
+[11/29 00:30:22     27s] 
+[11/29 00:30:22     27s] *** Summary of all messages that are not suppressed in this session:
+[11/29 00:30:22     27s] Severity  ID               Count  Summary                                  
+[11/29 00:30:22     27s] WARNING   IMPLF-155            6  ViaRule only supports routing/cut layer,...
+[11/29 00:30:22     27s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[11/29 00:30:22     27s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[11/29 00:30:22     27s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[11/29 00:30:22     27s] WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+[11/29 00:30:22     27s] WARNING   TECHLIB-302         10  No function defined for cell '%s'. The c...
+[11/29 00:30:22     27s] *** Message Summary: 24 warning(s), 0 error(s)
+[11/29 00:30:22     27s] 
+[11/29 00:30:22     27s] --- Ending "Innovus" (totcpu=0:00:27.9, real=0:03:51, mem=1095.4M) ---
