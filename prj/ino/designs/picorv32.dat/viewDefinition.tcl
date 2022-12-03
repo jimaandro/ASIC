@@ -23,6 +23,6 @@ create_delay_corner -name DelayCorner1\
    -rc_corner QRCtch
 create_constraint_mode -name Const1\
    -sdc_files\
-    [list ${::IMEX::libVar}/mmmc/genus.default_emulate_constraint_mode.sdc]
-create_analysis_view -name AnV1 -constraint_mode Const1 -delay_corner DelayCorner1
+    [list ${::IMEX::dataVar}/mmmc/modes/Const1/Const1.sdc]
+create_analysis_view -name AnV1 -constraint_mode Const1 -delay_corner DelayCorner1 -latency_file ${::IMEX::dataVar}/mmmc/views/AnV1/latency.sdc
 set_analysis_view -setup [list AnV1] -hold [list AnV1]
